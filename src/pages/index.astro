@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import { Font } from "astro:assets";
 import HeroSection from "../components/home/HeroSection.astro";
 ---
 
@@ -8,6 +9,7 @@ import HeroSection from "../components/home/HeroSection.astro";
         <meta charset="utf-8" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="icon" href="/favicon.ico" />
+        <Font cssVariable="--font-google-sans" />
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
         <title>Astro</title>
