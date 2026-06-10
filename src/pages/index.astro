@@ -1,24 +1,12 @@
 ---
-import "../styles/global.css";
-import { Font } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
 import HeroSection from "../components/home/HeroSection.astro";
 import Overview from "../components/home/Overview.astro";
 import Projects from "../components/home/Projects.astro";
 ---
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="icon" href="/favicon.ico" />
-        <Font cssVariable="--font-google-sans" />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="generator" content={Astro.generator} />
-        <title>Astro</title>
-    </head>
-    <body class="w-max mx-auto *:border-b-2 *:border-b-zinc-400">
-        <HeroSection />
-        <Overview />
-        <Projects />
-    </body>
-</html>
+<BaseLayout title="Portfolio FSL">
+    <HeroSection />
+    <Overview />
+    <Projects />
+</BaseLayout>
