@@ -1,17 +1,19 @@
-export type ProjectCard = {
+export type ProjectMetadata = {
   title: string;
   years: Array<string>;
   shortDescription: string;
   route: string;
+  imgPath: string;
 };
 
-export const projects: ProjectCard[] = [
+export const projects: ProjectMetadata[] = [
   {
     title: "CyberChallenge.IT",
     years: ["2024-2025"],
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum justo dui, eget malesuada augue luctus id. Aliquam eleifend faucibus ex ut tincidunt.",
     route: "/projects/cyberchallenge",
+    imgPath: "/src/images/home/copertine/cyberchallenge.png",
   },
   {
     title: "OliCyber.IT",
@@ -19,6 +21,7 @@ export const projects: ProjectCard[] = [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum justo dui, eget malesuada augue luctus id. Aliquam eleifend faucibus ex ut tincidunt.",
     route: "/projects/olicyber",
+    imgPath: "/src/images/home/copertine/olicyber.png",
   },
   {
     title: "Phaser Game Jam",
@@ -26,6 +29,7 @@ export const projects: ProjectCard[] = [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum justo dui, eget malesuada augue luctus id. Aliquam eleifend faucibus ex ut tincidunt.",
     route: "/projects/phaser",
+    imgPath: "/src/images/home/copertine/phaser.png",
   },
   {
     title: "Siviglia",
@@ -33,6 +37,7 @@ export const projects: ProjectCard[] = [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum justo dui, eget malesuada augue luctus id. Aliquam eleifend faucibus ex ut tincidunt.",
     route: "/projects/siviglia",
+    imgPath: "/src/images/home/copertine/siviglia.png",
   },
   {
     title: "Eipass",
@@ -40,5 +45,6 @@ export const projects: ProjectCard[] = [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum justo dui, eget malesuada augue luctus id. Aliquam eleifend faucibus ex ut tincidunt.",
     route: "/projects/eipass",
+    imgPath: "/src/images/home/copertine/eipass.png",
   },
 ];
