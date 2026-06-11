@@ -1,0 +1,31 @@
+@reference "./global.css";
+
+#content {
+    h2 {
+        @apply w-full text-center text-2xl font-bold mb-3;
+    }
+
+    p {
+        @apply text-justify mb-5;
+    }
+
+    img {
+        @apply p-1 rounded-lg bg-zinc-200 shadow-sm shadow-zinc-500 transition-all hover:bg-zinc-300 hover:shadow-lg hover:-translate-y-1;
+    }
+
+    p.paragraph-center {
+        @apply w-full text-center;
+    }
+
+    ul {
+        @apply grid grid-cols-2 items-stretch justify-center gap-4 mb-5;
+    }
+
+    li {
+        @apply flex flex-col items-center gap-2 px-3 py-2 rounded-lg bg-zinc-200 shadow-sm shadow-zinc-500 transition-all hover:bg-zinc-300 hover:shadow-lg hover:-translate-y-1;
+    }
+
+    h3 {
+        @apply text-lg font-semibold;
+    }
+}

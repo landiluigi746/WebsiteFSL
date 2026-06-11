@@ -1,0 +1,44 @@
+---
+const { frontmatter } = Astro.props;
+import BaseLayout from "./BaseLayout.astro";
+import "../styles/project.css";
+---
+
+<BaseLayout title={frontmatter.title}>
+    <div class="flex flex-col items-center justify-center gap-8 py-32">
+        <h1 class="text-5xl font-bold">{frontmatter.title}</h1>
+        <p class="max-w-[40svw] font-extralight">"{frontmatter.comment}"</p>
+        <div class="w-[40svw] flex flex-row items-center justify-between">
+            <div class="flex flex-row items-center justify-start gap-2">
+                {
+                    frontmatter.years.map((year: string) => (
+                        <p class="px-2 py-1 rounded-lg bg-zinc-200 transition-all shadow-sm shadow-zinc-300 hover:bg-zinc-300 hover:-translate-y-1 hover:shadow-lg">
+                            {year}
+                        </p>
+                    ))
+                }
+            </div>
+            <div class="flex flex-row items-center justify-center gap-2">
+                {
+                    frontmatter?.website && (
+                        <a
+                            href={frontmatter.website}
+                            target="_blank"
+                            class="px-2 py-1 rounded-lg bg-zinc-200 transition-all shadow-sm shadow-zinc-300 hover:bg-zinc-300 hover:-translate-y-1 hover:shadow-lg"
+                        >
+                            Sito web
+                        </a>
+                    )
+                }
+                <p
+                    class="px-2 py-1 rounded-lg bg-zinc-200 transition-all shadow-sm shadow-zinc-300 hover:bg-zinc-300 hover:-translate-y-1 hover:shadow-lg"
+                >
+                    {frontmatter.type}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="content" class="flex flex-col items-start justify-center py-16">
+        <slot />
+    </div>
+</BaseLayout>
