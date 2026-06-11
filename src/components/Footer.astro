@@ -2,16 +2,18 @@
 import { Github, Gmail } from "simple-icons-astro";
 ---
 
-<div class="grid grid-cols-3 items-center py-16 border-none">
-    <div class="flex flex-col items-start gap-1.5">
-        <h2 class="text-4xl font-extrabold">PortfolioFSL</h2>
-        <h3 class="text-2xl">Luigi Landi 5G</h3>
+<div
+    class="flex flex-row flex-wrap py-8 border-none not-md:gap-4 md:grid md:grid-cols-3 md:items-center md:py-16"
+>
+    <div class="w-full flex flex-col items-start gap-1.5">
+        <h2 class="text-2xl font-extrabold md:text-4xl">PortfolioFSL</h2>
+        <h3 class="text-lg md:text-2xl">Luigi Landi 5G</h3>
         <h4>IIS Margherita Hack Baronissi<br />2023-2026</h4>
     </div>
     <div class="flex items-center justify-center">
         <p>Copyright © Luigi Landi 2026.</p>
     </div>
-    <div class="flex flex-row justify-end gap-2">
+    <div class="flex flex-row justify-end gap-2 not-md:flex-1">
         <a href="https://github.com/landiluigi746" target="_blank">
             <Github size="32" />
         </a>

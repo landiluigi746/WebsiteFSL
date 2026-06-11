@@ -2,7 +2,7 @@
 
 #content {
     h2 {
-        @apply w-full text-center text-2xl font-bold mb-3;
+        @apply w-full text-center text-xl font-bold mb-3 md:text-2xl;
     }
 
     p {
@@ -18,7 +18,7 @@
     }
 
     ul {
-        @apply grid grid-cols-2 items-stretch justify-center gap-4 mb-5;
+        @apply grid items-stretch justify-center gap-4 mb-5 md:grid-cols-2;
     }
 
     li {
