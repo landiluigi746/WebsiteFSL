@@ -10,10 +10,10 @@ type: "Individuale/Gruppo"
 ## Panoramica
 CyberChallenge.IT è un programma nazionale italiano dedicato alla formazione dei giovani talenti (studenti di scuole superiori e università dai 16 ai 24 anni) della cybersecurity, un percorso intensivo che combina teoria, pratica e competizioni in stile CTF. Durante i mesi di training, i partecipanti sviluppano competenze tecniche avanzate in ambiti come ethical hacking, reverse engineering, cryptography e network security, lavorando su scenari realistici che simulano attacchi e difese informatiche. L’esperienza è fortemente collaborativa: si impara a ragionare sotto pressione, a lavorare in team e a sviluppare un metodo di problem solving rigoroso ma creativo. Oltre alle competenze tecniche, CyberChallenge.IT fa maturare una mentalità da security analyst: attenzione al dettaglio, capacità di analisi, gestione del rischio e comunicazione efficace. Per molti studenti rappresenta un punto di ingresso ingresso nel mondo della sicurezza informatica, con opportunità di networking e accesso a community altamente specializzate.
 
-![Esperienza personale CyberChallenge.IT](../../images/cyberchallenge/panoramica.png)
+![Panoramica CyberChallenge.IT](../../images/cyberchallenge/panoramica.png)
 
 ## La struttura del percorso
-<p class="paragraph-center">Il percorso si articola in diversi fasi, distribuite nell'arco di 7 mesi circa (da gennaio a giugno/luglio):</p>
+<p class="paragraph-center">Il percorso si articola in diverse fasi, distribuite nell'arco di 7 mesi circa (da gennaio a giugno/luglio):</p>
 
 - <h3>Test di ammissione</h3> L'ingresso alla competizione avviene con un test (presso l'università scelta per la partecipazione) a risposta multipla su logica, matematica e programmazione di base e un test di programmazione dedicata.
 - <h3>Training</h3> Durante il training nelle rispettive sedi, i partecipanti imparano le basi della cybersecurity, sviluppando competenze tecniche avanzate in ambiti come ethical hacking, reverse engineering, cryptography e network security, anche attraverso attività pratiche come CTF.
