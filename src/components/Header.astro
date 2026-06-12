@@ -1,0 +1,52 @@
+---
+import { Github, Gmail } from "simple-icons-astro";
+import { projects, type ProjectMetadata } from "../data/projects";
+---
+
+<div
+    class="z-10 fixed top-0 left-0 w-svw flex flex-row items-center justify-between px-3.5 py-2.5 rounded-b-lg outline-2 outline-zinc-300 bg-zinc-100 md:top-4 md:left-1/2 md:-translate-x-1/2 md:w-2xl md:rounded-lg"
+>
+    <div class="flex flex-row items-center justify-center gap-3">
+        <a href="/" class="font-extrabold hover:cursor-pointer sm:text-xl">
+            PortoflioFSL
+        </a>
+    </div>
+    <nav class="flex flex-row items-center justify-evenly gap-0.5 sm:gap-2">
+        <a
+            href="/"
+            class="rounded-lg px-2 py-1 transition-all hover:bg-zinc-300 hover:cursor-pointer md:px-3.5 md:py-2.5"
+        >
+            Home
+        </a>
+        <div class="relative group">
+            <a
+                href="/#projects"
+                class="rounded-lg px-2 py-1 transition-all hover:bg-zinc-300 hover:cursor-pointer md:px-3.5 md:py-2.5"
+            >
+                Progetti
+            </a>
+            <div
+                class="absolute hidden top-full left-0 mt-2 p-2 rounded-lg bg-zinc-100 group-hover:flex group-hover:flex-col group-hover:gap-1"
+            >
+                {
+                    projects.map((project: ProjectMetadata) => (
+                        <a
+                            href={project.route}
+                            class="px-1.5 py-0.5 rounded-lg transition-all hover:bg-zinc-300 hover:cursor-pointer md:px-2.5 md:py-1.5"
+                        >
+                            {project.title}
+                        </a>
+                    ))
+                }
+            </div>
+        </div>
+    </nav>
+    <div class="flex flex-row justify-end gap-2">
+        <a href="https://github.com/landiluigi746" target="_blank">
+            <Github size="32" />
+        </a>
+        <a href="mailto:landiluigi@proton.me" target="_blank">
+            <Gmail size="32" />
+        </a>
+    </div>
+</div>
