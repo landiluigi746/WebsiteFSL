@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/ProjectLayout.astro"
 title: "OliCyber.IT"
-comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum justo dui, eget malesuada augue luctus id. Aliquam eleifend faucibus ex ut tincidunt."
+comment: "Competizione individuale rivolta agli studenti delle scuole superiori che mira a formare giovani talenti nei principali ambiti della cybersicurezza. Esperienza molto positiva per i risultati raggiunti e per le competenze tecniche e sociali maturate."
 years: ["2024-2025", "2025-2026"]
 website: "https://www.olicyber.it/"
 type: "Individuale"

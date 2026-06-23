@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/ProjectLayout.astro"
 title: "CyberChallenge.IT"
-comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum justo dui, eget malesuada augue luctus id. Aliquam eleifend faucibus ex ut tincidunt."
+comment: "Programma nazionale italiano dedicato alla formazione dei giovani talenti (studenti di scuole superiori e università dai 16 ai 24 anni) della cybersecurity. Esperienza molto positiva per i risultati raggiunti e per le competenze tecniche e sociali maturate."
 years: ["2024-2025"]
 website: "https://www.cyberchallenge.it/"
 type: "Individuale/Gruppo"
